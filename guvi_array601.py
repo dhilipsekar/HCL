@@ -11,5 +11,6 @@ for i in range(n):
         y=min(a)
         new_array.append(y)
         a.remove(y)
-print(new_array)
+st=" ".join(str(e) for e in new_array)
+print(st)
         
