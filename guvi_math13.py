@@ -1,0 +1,13 @@
+n,m=map(int,input().split())
+s=n*m
+f=0
+x=1
+while(f==0):
+    p=x*x
+    x+=1
+    if(p==s):
+        print("yes")
+        f=1
+    elif(p>s):
+        print("no")
+        f=1
